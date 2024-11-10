@@ -154,7 +154,7 @@ END_IO 11, 115
 
 1. **Clone the Repository**:
  ```bash
- git clone https://github.com/AiraMens/api-simulator.git
+ git clone https://github.com/AiraMens/Design-Implementation-of-an-API-Simulator.git
 2. Navigate to the project directory
 3. Prepare input files
 4. Compile the simulator:
