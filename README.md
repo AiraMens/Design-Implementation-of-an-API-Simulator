@@ -1,4 +1,3 @@
-# Design-Implementation-of-an-API-Simulator
 # API Simulator: Fork/Exec System Calls
 
 ## Table of Contents
@@ -155,10 +154,10 @@ END_IO 11, 115
 
 1. **Clone the Repository**:
  ```bash
- git clone https://github.com/yourusername/api-simulator.git
+ git clone https://github.com/AiraMens/api-simulator.git
 2. Navigate to the project directory
 3. Prepare input files
-4. **Compile the simulator**:
+4. Compile the simulator:
 gcc -o simulator simulator.c
 5. Run the simulator
 ./simulator
