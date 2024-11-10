@@ -1,0 +1,68 @@
+0, 1, switch to kernel mode
+1, 1, context saved
+2, 1, Find vector 2 in memory position 0x0004
+3, 1, load address 0X0695 into the PC
+4, 2, FORK: copy parent PCB to child PCB
+6, 22, scheduler called
+28, 1, IRET
+29, 1, Switch to kernel mode
+30, 1, Context saved
+31, 1, Find vector 3 in memory position 0x0006
+32, 1, load address 0X042B into the PC
+33, 7, EXEC: load program1 of size 30Mb
+40, 2, found partition 1 with 40Mb of space
+42, 3, partition 1 marked as occupied
+45, 2, updating PCB with new information
+47, 1, scheduler called
+48, 1, IRET
+49, 100, CPU Execution
+149, 1, switch to kernel mode
+150, 2, context saved
+152, 1, Find vector 2 in memory position 0x0004
+153, 1, load address 0X0695 into the PC
+154, 4, FORK: copy parent PCB to child PCB
+158, 9, scheduler called
+167, 1, IRET
+168, 1, Switch to kernel mode
+169, 2, Context saved
+171, 1, Find vector 3 in memory position 0x0006
+172, 1, load address 0X042B into the PC
+173, 19, EXEC: load program3 of size 11Mb
+192, 1, found partition 3 with 15Mb of space
+193, 1, partition 3 marked as occupied
+194, 1, updating PCB with new information
+195, 1, scheduler called
+196, 1, IRET
+197, 1, Switch to kernel mode
+198, 1, Context saved
+199, 1, Find vector 10 in memory position 0x00014
+200, 1, load address 0X07B0 into PC
+201, 7, SYSCALL: run the ISR
+208, 8, Transfer Data
+216, 7, Check for Errors
+223, 1, IRET
+224, 1, switch to kernel mode
+225, 3, context saved
+228, 1, Find vector 2 in memory position 0x0004
+229, 1, load address 0X0695 into the PC
+230, 2, FORK: copy parent PCB to child PCB
+232, 3, scheduler called
+235, 1, IRET
+236, 1, Switch to kernel mode
+237, 3, Context saved
+240, 1, Find vector 3 in memory position 0x0006
+241, 1, load address 0X042B into the PC
+242, 14, EXEC: load program2 of size 2Mb
+256, 2, found partition 5 with 8Mb of space
+258, 2, partition 5 marked as occupied
+260, 1, updating PCB with new information
+261, 1, scheduler called
+262, 1, IRET
+263, 1, Switch to kernel mode
+264, 2, Context saved
+266, 1, Find vector 4 in memory position 0x0008
+267, 1, load address 0X0292 into PC
+268, 110, SYSCALL: run the ISR
+378, 6, Transfer Data
+384, 9, Check for Errors
+393, 1, IRET
